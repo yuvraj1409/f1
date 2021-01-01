@@ -1,16 +1,16 @@
 # calculator 
 
-operator = input("enter your operator '+','-','*'z'/':"
+operator = input("enter your operator '+','-','*','/':"
 num1 = int(input("enter your first number:")
 num2 = int(input("enter your secand number:")
 
-if operator = "+":
+if operator == "+":
    print( num1 +num2)
-elif operator = "-":
+elif operator == "-":
    print( num1- num2)
-elif operator = "*":
+elif operator == "*":
    print( num1 * num2)
-elif operator = "/":
+elif operator == "/":
    print( num1 / num2)
 else :
    print("Are you kidding me!!!")
