@@ -1,6 +1,6 @@
 # calculator 
 
-operator = input("enter your operator '+','-','*','/'):"
+operator = input("enter your operator '+','-','*','/':")
 num1 = int(input("enter your first number:"))
 num2 = int(input("enter your secand number:"))
 
